@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth drag transition */
+[data-dnd-kit-sortable-transform] {
+  transition: transform 200ms ease;
+}
